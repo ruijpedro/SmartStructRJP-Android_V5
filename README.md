@@ -1,13 +1,16 @@
-# SmartStruct_RJP V31
+# SmartStruct RJP V116.1.2 — ENGINEERING FINAL
 
-Ferramenta de apoio académico e técnico em Engenharia Civil.
+Aplicação de engenharia e cálculo. Esta edição separa a engenharia do ambiente de modelação/construção.
 
-## Módulos já funcionais nesta base
-- Estruturas: vigas, pórticos, treliças, pilares, lajes, sapatas e combinações (nível atual do projeto).
-- Geotecnia: parâmetros de solo, SPT, CPT/CPTu, capacidade de carga, assentamentos, impulsos de terras e taludes.
-- Contenção: muro em consola, betão armado, gravidade, gabiões e muro de Berlim.
-- Estabilização: pregagens, ancoragens, betão projetado e drenagem de taludes.
-- Hidráulica: canal trapezoidal por Manning e coletor circular preliminar.
-- Infraestruturas viárias: estradas, ciclovias, rotundas, terraplenagens e pavimentos.
+## Mantém
+Estruturas e verificações, betão armado, aço, madeira, LSF, alvenaria, estruturas mistas, sismo, fundações, geotecnia, contenções, estabilização, hidráulica, vias, pontes, reabilitação, biblioteca técnica, relatórios e ferramentas.
 
-Os cálculos apresentados destinam-se a apoio, estudo e pré-dimensionamento; os resultados devem ser validados no contexto técnico e regulamentar aplicável.
+## Retirado da interface
+- Editor BIM / 3D
+- Modelo BIM
+- Planeamento e orçamento
+
+Essas áreas passam para **RJP_3D Studio**.
+
+## Ligação ao RJP_3D Studio
+Em **Structural Project PRO → Projeto**, use **Exportar para RJP_3D Studio**. O ficheiro `*.rjp3d.json` leva toda a informação estrutural disponível nesse estudo: projeto, nós, membros, materiais, envelopes de esforços, fundações, armaduras e mapa de aço.

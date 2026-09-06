@@ -1,7 +1,7 @@
 {
-  "name": "smartstruct-rjp",
+  "name": "smartstruct-rjp-engineering",
   "private": true,
-  "version": "116.1.1",
+  "version": "116.1.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
